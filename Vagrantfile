@@ -16,7 +16,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   #
   # This probably doens't matter that much, but I like the hostname
   # and the machine network name from above to match.
-  config.vm.hostname = 'ubu14042'
+  config.vm.hostname = 'turing'
 
 
   # These settings are pretty good for doing Rails development. Bump them if you have a pretty
