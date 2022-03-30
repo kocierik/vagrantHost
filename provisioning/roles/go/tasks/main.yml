@@ -1,0 +1,6 @@
+---
+# tasks file for go
+- name: Install go 
+  ansible.builtin.package:
+    name: golang
+    state: latest
